@@ -26,6 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         settings.areTimestampsInSnapshotsEnabled = true
         db.settings = settings
+     
         return true
     }
 

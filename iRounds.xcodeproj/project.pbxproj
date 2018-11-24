@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69602872219E9436002B23DD /* roundItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69602871219E9436002B23DD /* roundItemTableViewCell.swift */; };
+		69602874219E9490002B23DD /* RoundDataForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69602873219E9490002B23DD /* RoundDataForm.swift */; };
+		69DB967121A8D66200B978F2 /* RoundDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DB967021A8D66200B978F2 /* RoundDataViewController.swift */; };
 		69EBEA14219D2DFD006EC403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EBEA13219D2DFD006EC403 /* AppDelegate.swift */; };
 		69EBEA16219D2DFD006EC403 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EBEA15219D2DFD006EC403 /* ViewController.swift */; };
 		69EBEA19219D2DFD006EC403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69EBEA17219D2DFD006EC403 /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		243F2CBD4860168DC59A29CA /* Pods-iRounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iRounds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iRounds/Pods-iRounds.debug.xcconfig"; sourceTree = "<group>"; };
+		69602871219E9436002B23DD /* roundItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roundItemTableViewCell.swift; sourceTree = "<group>"; };
+		69602873219E9490002B23DD /* RoundDataForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundDataForm.swift; sourceTree = "<group>"; };
+		69DB967021A8D66200B978F2 /* RoundDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundDataViewController.swift; sourceTree = "<group>"; };
 		69EBEA10219D2DFD006EC403 /* iRounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69EBEA13219D2DFD006EC403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69EBEA15219D2DFD006EC403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +80,10 @@
 			children = (
 				69EBEA13219D2DFD006EC403 /* AppDelegate.swift */,
 				69EBEA15219D2DFD006EC403 /* ViewController.swift */,
+				69DB967021A8D66200B978F2 /* RoundDataViewController.swift */,
+				69602873219E9490002B23DD /* RoundDataForm.swift */,
 				69EBEA17219D2DFD006EC403 /* Main.storyboard */,
+				69602871219E9436002B23DD /* roundItemTableViewCell.swift */,
 				69EBEA1A219D2DFE006EC403 /* Assets.xcassets */,
 				69EBEA1C219D2DFE006EC403 /* LaunchScreen.storyboard */,
 				69EBEA1F219D2DFE006EC403 /* Info.plist */,
@@ -232,8 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69DB967121A8D66200B978F2 /* RoundDataViewController.swift in Sources */,
+				69602874219E9490002B23DD /* RoundDataForm.swift in Sources */,
 				69EBEA16219D2DFD006EC403 /* ViewController.swift in Sources */,
 				69EBEA14219D2DFD006EC403 /* AppDelegate.swift in Sources */,
+				69602872219E9436002B23DD /* roundItemTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
