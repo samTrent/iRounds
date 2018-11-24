@@ -111,7 +111,7 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="o6s-AN-o0L"/>
-                                    <barButtonItem title="Submit" id="bGw-AZ-n0v">
+                                    <barButtonItem title="Submit Form" id="bGw-AZ-n0v">
                                         <connections>
                                             <action selector="submitButton:" destination="BYZ-38-t0r" id="Y12-38-el6"/>
                                         </connections>
