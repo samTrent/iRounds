@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         
         
         //signing in
-        Auth.auth().signIn(withEmail: "sd.trent@yahoo.com", password: "thatoneguY1") { (result, error) in
+        Auth.auth().signIn(withEmail: "sd.trent@yahoo.com", password: "") { (result, error) in
             if let error = error
             {
                 print("there was a problem logging the user in...\(error.localizedDescription)")
