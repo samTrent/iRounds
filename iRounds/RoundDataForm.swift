@@ -17,12 +17,12 @@ struct RoundLocation
 
 class createFitnessCenterRoundForm
 {
-    var Mainlocation: String
+    var locationName: String
     var listOfRoundLocations: [RoundLocation] = []
     
     init()
     {
-      Mainlocation = "FitnessCenter"
+      locationName = "Fitness Center"
         
       listOfRoundLocations = [RoundLocation(locationName: "Hart Gym", activity: "", numberOfParticipants: 0),
                               RoundLocation(locationName: "Wrestling Room", activity: "", numberOfParticipants: 0),
@@ -43,12 +43,12 @@ class createFitnessCenterRoundForm
 
 class createICenterRoundForm
 {
-    var Mainlocation: String
+    var locationName: String
     var listOfRoundLocations: [RoundLocation] = []
     
     init()
     {
-      Mainlocation = "FitnessCenter"
+      locationName = "ICenter"
         
       listOfRoundLocations = [RoundLocation(locationName: "Court 1", activity: "", numberOfParticipants: 0),
                               RoundLocation(locationName: "Court 2", activity: "", numberOfParticipants: 0),

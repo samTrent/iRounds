@@ -26,7 +26,7 @@
 		69DB967021A8D66200B978F2 /* RoundDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundDataViewController.swift; sourceTree = "<group>"; };
 		69EBEA10219D2DFD006EC403 /* iRounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69EBEA13219D2DFD006EC403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		69EBEA15219D2DFD006EC403 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69EBEA15219D2DFD006EC403 /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		69EBEA18219D2DFD006EC403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69EBEA1A219D2DFE006EC403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69EBEA1D219D2DFE006EC403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };

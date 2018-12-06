@@ -137,8 +137,8 @@ extension RoundDataViewController: UIPickerViewDelegate, UIPickerViewDataSource
    }
    
    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-      activityTextField.text = activityList[row]
-      roundForm[selectedIndexPathForRoundData!].activity = activityList[row]
+//      activityTextField.text = activityList[row]
+//      roundForm[selectedIndexPathForRoundData!].activity = activityList[row]
       return activityList[row]
    }
    
